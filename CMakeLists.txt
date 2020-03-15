@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.15)
+project(ITMO_algo)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(b1_fight Block1_basics/p2025_LineFighting.cpp)
+add_executable(b1_stonepile Block1_basics/p1005_StonePile.cpp)
+add_executable(b1_troubleduons Block1_basics/p1155_Troubleduons.cpp)
+add_executable(b1_hyperjump Block1_basics/p1296_Hyperjump.cpp)
+add_executable(b1_gamers Block1_basics/p1401_Gamers.cpp)
+add_executable(b2_mediana Block2_sorts/p3214_AChangalidi_1207_mediana.cpp)
+add_executable(b2_visits Block2_sorts/p3214_AChangalidi_1726_visits.cpp)

@@ -1,4 +1,5 @@
-# [2025. Line Fighting](https://acm.timus.ru/problem.aspx?space=1&num=2025&locale=en)
+# Block 1. Basics
+## [2025. Line Fighting](https://acm.timus.ru/problem.aspx?space=1&num=2025&locale=en)
 * Time limit: 1.0 second
 * Memory limit: 64 MB
 
@@ -25,7 +26,7 @@ Problem Author: *Alexey Danilyuk*
 Problem Source: *Ural Regional School Programming Contest 2014*
 
 
-# [1005. Stone Pile](https://acm.timus.ru/problem.aspx?space=1&num=1005&locale=en)
+## [1005. Stone Pile](https://acm.timus.ru/problem.aspx?space=1&num=1005&locale=en)
 * Time limit: 1.0 second
 * Memory limit: 64 MB
 
@@ -46,7 +47,7 @@ Your program should output a number representing the minimal possible weight dif
 ```
 Problem Source: *USU Championship 1997*
 
-# [1155. Troubleduons](https://acm.timus.ru/problem.aspx?space=1&num=1155&locale=en)
+## [1155. Troubleduons](https://acm.timus.ru/problem.aspx?space=1&num=1155&locale=en)
 * Time limit: 1.0 second
 * Memory limit: 64 MB
 
@@ -60,7 +61,7 @@ Problem Source: *USU Championship 1997*
 
 As physics develops and moves on, scientists find more and more strange elementary particles, whose properties are more than unknown. You may have heard about muons, gluons and other strange particles. Recently scientists have found new elementary particles called troubleduons. These particles are called this way because scientists can create or annihilate them only in couples. Besides, troubleduons cause trouble to scientists, and that’s why the latter want to get rid of them. You should help scientists get rid of troubleduons.
 
-![](img/1155.png)
+![](../img/1155.png)
 
 Experimental set consists of eight cameras, situated in the vertices of a cube. Cameras are named as A, B, C, …, H. It is possible to generate or annihilate two troubleduons in neighbouring cameras. You should automate the process of removing troubleduons.
 #### Input
@@ -90,7 +91,7 @@ IMPOSSIBLE
 ```
 Problem Source: *Ural Collegiate Programming Contest, April 2001, Perm, English Round*
 
-# [1296. Hyperjump](https://acm.timus.ru/problem.aspx?space=1&num=1296&locale=en)
+## [1296. Hyperjump](https://acm.timus.ru/problem.aspx?space=1&num=1296&locale=en)
 * Time limit: 1.0 second
 * Memory limit: 64 MB
 
@@ -134,13 +135,13 @@ The only line of output contains the largest possible value of the gravity poten
 Problem Author: *Den Raskovalov*
 Problem Source: *IX Open Collegiate Programming Contest of the High School Pupils (13.03.2004)*
 
-# [1401. Gamers](https://acm.timus.ru/problem.aspx?space=1&num=1401&locale=en)
+## [1401. Gamers](https://acm.timus.ru/problem.aspx?space=1&num=1401&locale=en)
 * Time limit: 1.0 second
 * Memory limit: 64 MB
 
 Mr. Chichikov is a wealthy man. Besides other ways of earning the money he used this one: he argued with some blunderers that he would be able to prove that it is impossible to pave the 512 × 512 square checker-board with the figures:
 
-![](img/1401.png)
+![](../img/1401.png)
 
 and he always won. Once one of those blunderers happened to be not so silly and he claimed that he was able to pave the 512 × 512 square checker-board without the upper right cell with those figures. Chichikov blurted out that he could pave any 2^n × 2^n square checker-board without one arbitrary cell with those figures. One word led to another and they bet. Chchikov felt that he wouldn’t prove his case. Help him!
 #### Input
