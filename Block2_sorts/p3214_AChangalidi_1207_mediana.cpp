@@ -14,13 +14,13 @@ struct Point {
     int index;
 };
 
-//n - amount of points
-int n;
-Point* points;
-
 bool compare(Point point1, Point point2){
     return point1.angle < point2.angle;
 }
+
+//n - amount of points
+int n;
+Point* points;
 
 void sort_points_by_angle(int left, int right) {
     int i = left;
@@ -84,7 +84,7 @@ int main() {
     }
 
 
-    //Calculate the angle between them and
+    //Calculate the angle between them and the most left point
     for (int i = 0; i<n; i++){
         if (i==i_min){
             points[i].angle = -1e10f;
