@@ -3,13 +3,21 @@ project(ITMO_algo)
 
 set(CMAKE_CXX_STANDARD 14)
 
+#Block1_basics
 add_executable(b1_fight Block1_basics/p2025_LineFighting.cpp)
 add_executable(b1_stonepile Block1_basics/p1005_StonePile.cpp)
 add_executable(b1_troubleduons Block1_basics/p1155_Troubleduons.cpp)
 add_executable(b1_hyperjump Block1_basics/p1296_Hyperjump.cpp)
 add_executable(b1_gamers Block1_basics/p1401_Gamers.cpp)
+#Block2_sorts
 add_executable(b2_median Block2_sorts/p3214_AChangalidi_1207_mediana.cpp)
 add_executable(b2_visits Block2_sorts/p3214_AChangalidi_1726_visits.cpp)
 add_executable(b2_elephpotams Block2_sorts/p3214_AChangalidi_1444_elephpotams.cpp)
 add_executable(b2_fools Block2_sorts/p3214_AChangalidi_1604_fools.cpp)
 add_executable(b2_spy Block2_sorts/p3214_AChangalidi_1322_spy.cpp)
+#Block3_data_structures
+add_executable(b3_disk Block3_data_structures/p3214_AChangalidi_1067_disk.cpp)
+add_executable(b3_mono Block3_data_structures/p3214_AChangalidi_1494_mono.cpp)
+add_executable(b3_war Block3_data_structures/p3214_AChangalidi_1521_war.cpp)
+add_executable(b3_white Block3_data_structures/p3214_AChangalidi_1628_white.cpp)
+add_executable(b3_money Block3_data_structures/p3214_AChangalidi_1650_money.cpp)
