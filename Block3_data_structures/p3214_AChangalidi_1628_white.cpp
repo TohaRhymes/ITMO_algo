@@ -63,7 +63,7 @@ int main() {
             if (points[i + 1].second - points[i].second == 2) {
                 pair<int, int> p = {points[i + 1].first, points[i + 1].second - 1};
                 single_squares.push_back(p);
-            } else if(points[i + 1].second - points[i].second > 2){
+            } else if (points[i + 1].second - points[i].second > 2) {
                 answer++;
             }
         }
@@ -80,7 +80,7 @@ int main() {
             if (points[i + 1].first - points[i].first == 2) {
                 pair<int, int> p = {points[i + 1].first - 1, points[i + 1].second};
                 single_squares.push_back(p);
-            } else if(points[i + 1].first - points[i].first > 2){
+            } else if (points[i + 1].first - points[i].first > 2) {
                 answer++;
             }
         }
@@ -89,7 +89,7 @@ int main() {
     std::sort(single_squares.begin(), single_squares.end(), columns_compare);
     if (single_squares.size() > 1) {
         int i = 0;
-        while(i < single_squares.size()-1) {
+        while (i < single_squares.size() - 1) {
             if (single_squares[i] == single_squares[i + 1]) {
                 answer++;
                 i++;

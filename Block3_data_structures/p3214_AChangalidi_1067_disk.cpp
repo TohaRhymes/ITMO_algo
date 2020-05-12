@@ -8,6 +8,7 @@ struct Node {
         this->name = name;
         this->children = {};
     }
+
     string name;
     map<string, Node *> children;
 };
@@ -36,7 +37,7 @@ int main() {
         Node *cur_node = root;
         for (int j = 0; j <= path.size(); j++) {
 
-            if (path[j] == '\\'|| path[j] == '\0') {
+            if (path[j] == '\\' || path[j] == '\0') {
                 auto new_dir = cur_node->children.find(dir_name);
                 if (new_dir == cur_node->children.end()) {
                     Node *new_node = new Node(dir_name);
