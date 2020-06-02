@@ -13,7 +13,8 @@
 ## [1160. Network](https://acm.timus.ru/problem.aspx?space=1&num=1160&locale=en)
   
 #### Explanation (in Russian):
-  
+
+Это простейшая реализация поиска минимального остовного дерева. Легче всего понять, почему это так, посмотрев именно на алгоритм Крускала, так как он начинает с самого минимального ребра и пробует все в порядке роста, пока не достроит остов.
   
   
 ## [1162. Currency Exchange](https://acm.timus.ru/problem.aspx?space=1&num=1162&locale=en)
